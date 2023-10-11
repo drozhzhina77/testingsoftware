@@ -1,0 +1,17 @@
+животные
+squirrel [ˈskwɪrəl] белка 2
+owl [aʊl] сова 0
+
+природа
+hill [hɪl] холм 0
+
+дом
+bench [bɛnʧ] скамья 0
+eaves [iːvz] карниз 0
+
+фрукты и ягоды
+passion fruit [ˈpæʃən][fruːt] маракуйя 0
+
+овощи
+squash [skwɔʃ] кабачок 0
+basil [bæzl] базилик 0

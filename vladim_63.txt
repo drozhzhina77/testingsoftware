@@ -1,0 +1,9 @@
+природа
+pollutant [pəˈluːtənt] загрязнитель 0
+earthquake [ˈɜːθkweɪk] землетрясение 0
+ecosystems [ˈiːkəʊˌsɪstəmz] экосистемы 0
+solar energy [ˈsəʊlər][ˈɛnəʤi] солнечная энергия 0
+carbon dioxide [ˈkɑːbən][daɪˈɒksaɪd] углекислый газ 0
+
+животные
+crow [krəʊ] ворона 0

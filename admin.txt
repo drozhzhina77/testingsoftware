@@ -1,0 +1,10 @@
+природа
+hill [hɪl] холм 0
+beach [biːʧ] пляж 0
+lake [leɪk] озеро 0
+
+фрукты и ягоды
+raspberry [ˈrɑːzbəri] малина 0
+
+овощи
+eggplant [ˈegplɑːnt] баклажан 0

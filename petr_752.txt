@@ -1,0 +1,23 @@
+животные
+ox [ɒks] бык 0
+owl [aʊl] сова 0
+fox [fɒks] лиса 0
+leopard [ˈlɛpəd] леопард 0
+penguin [ˈpɛŋgwɪn] пингвин 0
+jellyfish [ˈʤɛlɪfɪʃ] медуза 0
+octopus [ˈɒktəpəs] осьминог 0
+
+одежда
+hat [hæt] шапка 0
+cape [keɪp] плащ 0
+fur [fɜː] шерсть 0
+evening gown [ˈiːvnɪŋ][gaʊn] вечернее платье 0
+wedding gown [ˈwɛdɪŋ][gaʊn] свадебное платье 0
+garment [ˈgɑːmənt] одежда 0
+boots [buːt] ботинки 0
+
+семья
+father [ˈfɑːðə] отец 0
+mother [ˈmʌðə] мама 0
+parents [ˈpeərənts] родители 0
+son [sʌn] сын 0

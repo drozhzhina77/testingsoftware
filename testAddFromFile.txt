@@ -1,0 +1,13 @@
+животные
+ox [ɒks] бык
+owl [aʊl] сова
+fox [fɒks] лиса
+
+одежда
+hat [hæt] шапка
+
+семья
+father [ˈfɑːðə] отец
+mother [ˈmʌðə] мама
+parents [ˈpeərənts] родители
+son [sʌn] сын

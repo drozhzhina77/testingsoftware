@@ -1,0 +1,32 @@
+овощи
+basil [bæzl] базилик 0
+
+профессии
+physician [fɪˈzɪʃən] врач 0
+seamstress [ˈsɪmstrɪs] швея 0
+
+глаголы
+to be [biː] быть 0
+
+животные
+squirrel [ˈskwɪrəl] белка 0
+owl [aʊl] сова 0
+
+наречия
+actually [ˈækʧuəli] фактически 0
+also [ˈɔːlsəu] также 0
+anyway [ˈenɪweɪ] в любом случае 0
+basically [ˈbeɪsɪkli] в основном 0
+besides [bɪˈsaɪdz] кроме того 0
+certainly [ˈsɜːtnli] несомненно 0
+especially [ɪsˈpeʃəli] особенно 0
+
+прилагательные
+able [‘eibl] способный 0
+alone [ə’ləun] единственный 0
+bad [bæd] плохой 0
+beautiful [‘bju:tɪf(ə)l] красивый 0
+big [big] большой 0
+black [blæk] черный 0
+blue [bluː] синий 0
+bright [braɪt] яркий 0

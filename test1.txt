@@ -1,0 +1,12 @@
+животные
+squirrel [ˈskwɪrəl] белка 2
+owl [aʊl] сова 0
+
+природа
+oil [ɔɪl] масло 0
+bay [beɪ] залив 0
+
+дом
+bench [bɛnʧ] скамья 0
+eaves [iːvz] карниз 0
+brick [brɪk] кирпич 0

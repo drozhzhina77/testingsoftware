@@ -1,0 +1,20 @@
+одежда
+hat [hæt] шапка 0
+cape [keɪp] плащ 0
+fur [fɜː] шерсть 0
+evening gown [ˈiːvnɪŋ][gaʊn] вечернее платье 1
+wedding gown [ˈwɛdɪŋ][gaʊn] свадебное платье 0
+ball gown [bɔːl][gaʊn] бальное платье 0
+
+семья
+father [ˈfɑːðə] отец 0
+mother [ˈmʌðə] мама 0
+parents [ˈpeərənts] родители 0
+son [sʌn] сын 0
+
+животные
+swallow [ˈswɒləʊ] ласточка 0
+bat [bæt] летучая мышь 0
+
+дом
+cellar [ˈsɛlə] погреб 0

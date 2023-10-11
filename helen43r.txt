@@ -1,0 +1,36 @@
+дом
+basement [ˈbeɪsmənt] подвал 0
+fence [fɛns] изгородь 1
+
+украшения
+necklace [ˈnɛklɪs] ожерелье 1
+hair-pin [heə]-[pɪn] шпилька 0
+
+семья
+spouse [spaʊz] супруг 0
+great-grandfather [ˈgreɪtˈgrændˌfɑːðə] прадедушка 0
+great-grandchild [ˈgreɪtˈgrændʧaɪld] правнук 0
+foster family [ˈfɒstə][ˈfæmɪli] приемная семья 0
+stepmother [ˈstɛpˌmʌðə] мачеха 0
+father [ˈfɑːðə] отец 0
+mother [ˈmʌðə] мама 0
+parents [ˈpeərənts] родители 0
+
+одежда
+button [ˈbʌtn] пуговица 0
+top hat [tɒp][hæt] цилиндр 0
+robe [rəʊb] халат 0
+hat [hæt] шапка 0
+evening gown [ˈiːvnɪŋ][gaʊn] вечернее платье 0
+wedding gown [ˈwɛdɪŋ][gaʊn] свадебное платье 0
+
+животные
+peacock [ˈpiːkɒk] павлин 0
+bat [bæt] летучая мышь 0
+ox [ɒks] бык 0
+owl [aʊl] сова 0
+
+профессии
+policeman [pəˈliːsmən] полицейский 0
+receptionist [rɪˈsɛpʃənɪst] секретарь 0
+physician [fɪˈzɪʃən] врач 0

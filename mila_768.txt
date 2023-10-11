@@ -1,0 +1,79 @@
+природа
+sea [siː] море 0
+oil [ɔɪl] масло 0
+bay [beɪ] залив 0
+hill [hɪl] холм 0
+beach [biːʧ] пляж 0
+lake [leɪk] озеро 0
+pollutant [pəˈluːtənt] загрязнитель 0
+ecosystems [ˈiːkəʊˌsɪstəmz] экосистемы 0
+
+животные
+ox [ɒks] бык 0
+owl [aʊl] сова 0
+fox [fɒks] лиса 0
+leopard [ˈlɛpəd] леопард 0
+gorilla [gəˈrɪlə] горилла 0
+dolphin [ˈdɒlfɪn] дельфин 0
+reindeer [ˈreɪndɪə] олень 0
+swallow [ˈswɒləʊ] ласточка 0
+penguin [ˈpɛŋgwɪn] пингвин 0
+jellyfish [ˈʤɛlɪfɪʃ] медуза 0
+octopus [ˈɒktəpəs] осьминог 0
+squirrel [ˈskwɪrəl] белка 0
+woodpecker [ˈwʊdˌpɛkə] дятел 0
+
+дом
+bath [bɑːθ] ванна 0
+wall [wɔːl] стена 0
+clock [klɒk] часы 0
+table [ˈteɪbl] столик 0
+roof [ruːf] крыша 0
+stove [stəʊv] печь 0
+shower [ˈʃaʊə] душ 0
+pool [puːl] бассейн 0
+toilet [ˈtɔɪlɪt] туалет 0
+doormat [ˈdɔːmæt] коврик 0
+ceiling [ˈsiːlɪŋ] потолок 0
+balcony [ˈbælkəni] балкон 0
+antenna [ænˈtɛnə] антенна 0
+pantry [ˈpæntri] кладовая 0
+lamp [læmp] лампа 0
+basement [ˈbeɪsmənt] подвал 0
+bathroom [ˈbɑːθruːm] ванная 0
+home [həʊm] дом 0
+staircase [ˈsteəkeɪs] лестница 0
+living room [ˈlɪvɪŋ][ruːm] гостиная 0
+alarm [əˈlɑːm] аварийная сигнализация 0
+dining room [ˈdaɪnɪŋ][ruːm] столовая 0
+wardrobe [ˈwɔːdrəʊb] шкаф 0
+towel rack [ˈtaʊəl][ræk] вешалка для полотенец 0
+
+одежда
+hat [hæt] шапка 0
+cape [keɪp] плащ 0
+fur [fɜː] шерсть 0
+belt [bɛlt] пояс 0
+kilt [kɪlt] килт 0
+shoe [ʃuː] обувь 0
+sock [sɒk] носок 0
+tie [taɪ] галстук 0
+cap [ˈkæp] колпак 0
+vest [vɛst] жилет 0
+scarf [skɑːf] шарф 0
+cuff [kʌf] манжета 0
+evening gown [ˈiːvnɪŋ][gaʊn] вечернее платье 0
+wedding gown [ˈwɛdɪŋ][gaʊn] свадебное платье 0
+garment [ˈgɑːmənt] одежда 0
+
+семья
+parents [ˈpeərənts] родители 0
+mother [ˈmʌðə] мама 0
+
+овощи
+cauliflower [ˈkɔlɪflaʊə] цветная капуста 0
+sorrel [ˈsɔːrəl] щавель 0
+
+профессии
+manager [ˈmænɪʤə] менеджер 0
+seamstress [ˈsɪmstrɪs] швея 0

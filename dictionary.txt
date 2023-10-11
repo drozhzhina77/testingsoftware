@@ -1,0 +1,496 @@
+природа
+sea [siː] море
+oil [ɔɪl] масло
+hill [hɪl] холм
+beach [biːʧ] пляж
+lake [leɪk] озеро
+river [ˈrɪvə] река
+field [fiːld] поле
+lava [ˈlɑːvə] лава
+cave [keɪv] пещера
+creek [kriːk] ручей
+marsh [mɑːʃ] болото
+meadow [ˈmɛdəʊ] луг
+ozone [ˈəʊzəʊn] озон
+magma [ˈmægmə] магма
+forest [ˈfɒrɪst] лес
+ocean [ˈəʊʃən] океан
+valley [ˈvæli] долина
+plain [pleɪn] равнина
+drought [draʊt] засуха
+tundra [ˈtʌndrə] тундра
+island [ˈaɪlənd] остров
+crater [ˈkreɪtə] кратер
+desert [ˈdɛzət] пустыня
+canyon [ˈkænjən] каньон
+mountain [ˈmaʊntɪn] гора
+glacier [ˈglæsiə] ледник
+erosion [ɪˈrəʊʒən] эрозия
+fossil [ˈfɒsl] ископаемое
+savanna [səˈvænə] саванна
+coal [kəʊl] каменный уголь
+mineral [ˈmɪnərəl] минерал
+volcano [vɒlˈkeɪnəʊ] вулкан
+tsunami [tsuːˈnɑːmi] цунами
+emissions [ɪˈmɪʃənz] выбросы
+waterfall [ˈwɔːtəfɔːl] водопад
+atmosphere [ˈætməsfɪə] атмосфера
+peninsula [pɪˈnɪnsjʊlə] полуостров
+extinction [ɪksˈtɪŋkʃən] вымирание
+pollutant [pəˈluːtənt] загрязнитель
+earthquake [ˈɜːθkweɪk] землетрясение
+
+животные
+ox [ɒks] бык
+owl [aʊl] сова
+fox [fɒks] лиса
+hare [heə] заяц
+rat [ræt] крыса
+toad [təʊd] жаба
+pig [pɪg] свинья
+mole [məʊl] крот
+cow [kaʊ] корова
+deer [dɪə] олень
+dog [dɒg] собака
+crab [kræb] краб
+lion [ˈlaɪən] лев
+mouse [maʊs] мышь
+sheep [ʃiːp] овца
+dove [dʌv] голубь
+goat [gəʊt] козел
+goose [guːs] гусь
+bear [beə] медведь
+otter [ˈɒtə] выдра
+stork [stɔːk] аист
+crow [krəʊ] ворона
+swan [swɒn] лебедь
+hawk [hɔːk] ястреб
+snake [sneɪk] змея
+shark [ʃɑːk] акула
+horse [hɔːs] лошадь
+frog [frɒg] лягушка
+tiger [ˈtaɪgə] тигр
+panda [ˈpændə] панда
+raven [ˈreɪvn] ворон
+zebra [ˈziːbrə] зебра
+badger [ˈbæʤə] барсук
+hedgehog [ˈhɛʤhɒg] еж
+walrus [ˈwɔːlrəs] морж
+accoon [rəˈkuːn] енот
+rabbit [ˈræbɪt] кролик
+camel [ˈkæməl] верблюд
+koala [kəʊˈɑːlə] коала
+bat [bæt] летучая мышь
+pigeon [ˈpɪʤɪn] голубь
+turkey [ˈtɜːki] индейка
+parrot [ˈpærət] попугай
+seagull [ˈsiːgʌl] чайка
+lizard [ˈlɪzəd] ящерица
+giraffe [ʤɪˈrɑːf] жираф
+elephant [ˈɛlɪfənt] слон
+ostrich [ˈɒstrɪʧ] страус
+monkey [ˈmʌŋki] обезьяна
+peacock [ˈpiːkɒk] павлин
+leopard [ˈlɛpəd] леопард
+gorilla [gəˈrɪlə] горилла
+sparrow [ˈspærəʊ] воробей
+squirrel [ˈskwɪrəl] белка
+dolphin [ˈdɒlfɪn] дельфин
+reindeer [ˈreɪndɪə] олень
+swallow [ˈswɒləʊ] ласточка
+penguin [ˈpɛŋgwɪn] пингвин
+jellyfish [ˈʤɛlɪfɪʃ] медуза
+octopus [ˈɒktəpəs] осьминог
+woodpecker [ˈwʊdˌpɛkə] дятел
+antelope [ˈæntɪləʊp] антилопа
+kangaroo [ˌkæŋgəˈruː] кенгуру
+flamingo [fləˈmɪŋgəʊ] фламинго
+crocodile [ˈkrɒkədaɪl] крокодил
+chimpanzee [ˌʧɪmpənˈziː] шимпанзе
+blue whale [bluː][weɪl] синий кит
+starfish [ˈstɑːfɪʃ] морская звезда
+hippopotamus [ˌhɪpəˈpɒtəməs] бегемот
+
+дом
+tap [tæp] кран
+hall [hɔːl] зал
+door [dɔː] дверь
+floor [flɔː] пол
+bed [bɛd] кровать
+bath [bɑːθ] ванна
+wall [wɔːl] стена
+clock [klɒk] часы
+table [ˈteɪbl] столик
+roof [ruːf] крыша
+stove [stəʊv] печь
+shower [ˈʃaʊə] душ
+pool [puːl] бассейн
+bench [bɛnʧ] скамья
+eaves [iːvz] карниз
+brick [brɪk] кирпич
+room [ruːm] комната
+lawn [lɔːn] лужайка
+garden [ˈgɑːdn] сад
+attic [ˈætɪk] чердак
+sink [sɪŋk] раковина
+step [stɛp] ступенька
+cellar [ˈsɛlə] погреб
+window [ˈwɪndəʊ] окно
+fence [fɛns] изгородь
+garage [ˈgærɑːʒ] гараж
+mirror [ˈmɪrə] зеркало
+shutter [ˈʃʌtə] жалюзи
+kitchen [ˈkɪʧɪn] кухня
+toilet [ˈtɔɪlɪt] туалет
+doormat [ˈdɔːmæt] коврик
+ceiling [ˈsiːlɪŋ] потолок
+balcony [ˈbælkəni] балкон
+antenna [ænˈtɛnə] антенна
+pantry [ˈpæntri] кладовая
+lamp [læmp] лампа
+basement [ˈbeɪsmənt] подвал
+bathroom [ˈbɑːθruːm] ванная
+home [həʊm] дом
+staircase [ˈsteəkeɪs] лестница
+living room [ˈlɪvɪŋ][ruːm] гостиная
+alarm [əˈlɑːm] аварийная сигнализация
+dining room [ˈdaɪnɪŋ][ruːm] столовая
+bedroom [ˈbɛdruːm] спальная комната
+letter box [ˈlɛtə][bɒks] почтовый ящик
+microwave [ˈmaɪkrəʊweɪv] микроволновая печь
+oven, cooker [ˈʌvn], [ˈkʊkə] духовка, плита
+dishwasher [ˈdɪʃˌwɒʃə] посудомоечная машина
+wardrobe [ˈwɔːdrəʊb] шкаф
+towel rack [ˈtaʊəl][ræk] вешалка для полотенец
+refrigerator [rɪˈfrɪʤəreɪtə] холодильник
+
+одежда
+bow [baʊ] бант
+hat [hæt] шапка
+cape [keɪp] плащ
+fur [fɜː] шерсть
+belt [bɛlt] пояс
+kilt [kɪlt] килт
+shoe [ʃuː] обувь
+sock [sɒk] носок
+tie [taɪ] галстук
+cap [ˈkæp] колпак
+vest [vɛst] жилет
+robe [rəʊb] халат
+scarf [skɑːf] шарф
+cuff [kʌf] манжета
+cloak [kləʊk] плащ
+coat [kəʊt] пальто
+smock [smɒk] халат
+boots [buːt] ботинки
+pants [pænts] брюки
+frock [frɒk] платье
+suit [sjuːt] костюм
+shirt [ʃɜːt] рубашка
+crown [kraʊn] корона
+parka [ˈpɑːkə] парка
+jeans [ʤiːnz] джинсы
+beret [ˈbɛreɪ] берет
+shorts [ʃɔːts] шорты
+slacks [slæks] брюки
+blouse [blaʊz] блузка
+fashion [ˈfæʃən] мода
+helmet [ˈhɛlmɪt] шлем
+muffler [ˈmʌflə] шарф
+jacket [ˈʤækɪt] куртка
+pocket [ˈpɒkɪt] карман
+dress [drɛs] платье
+button [ˈbʌtn] пуговица
+tights [taɪts] колготки
+sweater [ˈswɛtə] свитер
+jumper [ˈʤʌmpə] джемпер
+collar [ˈkɒlə] воротник
+tunic [ˈtjuːnɪk] туника
+glasses [ˈglɑːsɪz] очки
+gloves [glʌvz] перчатки
+slippers [ˈslɪpəz] тапки
+mittens [ˈmɪtnz] рукавицы
+garment [ˈgɑːmənt] одежда
+trousers [ˈtraʊzəz] брюки
+petticoat [ˈpɛtɪkəʊt] юбка
+pajamas [pəˈʤɑːməz] пижамы
+costume [ˈkɒstjuːm] костюм
+handbag [ˈhændbæg] сумочка
+stockings [ˈstɒkɪŋz] чулки
+galoshes [gəˈlɒʃɪz] калоши
+sandals [ˈsændlz] сандалии
+top hat [tɒp][hæt] цилиндр
+overcoat [ˈəʊvəkəʊt] пальто
+pinafore [ˈpɪnəfɔː] сарафан
+pullover [ˈpʊlˌəʊvə] свитер
+sundress [ˈsʌndrɛs] сарафан
+bandanna [bænˈdænə] бандана
+waistcoat [ˈweɪskəʊt] жилет
+earmuffs [ˈɪəmʌfs] наушники
+tank top [tæŋk][tɒp] майка
+t-shirt [ˈtiːʃɜːt] футболка
+leggings [ˈlɛgɪŋz] леггинсы
+housecoat [ˈhaʊskəʊt] халат
+uniform [ˈjuːnɪfɔːm] униформа
+sneakers [ˈsniːkəz] кроссовки
+cardigan [ˈkɑːdɪgən] кардиган
+swimsuit [ˈswɪmsuːt] купальник
+jewellery [ˈʤuːəlri] украшения
+pocketbook [ˈpɒkɪtbʊk] бумажник
+flip-flops [flɪp]-[flɒps] шлепки
+pantyhose [ˈpæntɪˌhəʊz] колготки
+spacesuit [ˈspeɪsˌsuːt] скафандр
+overalls [ˈəʊvərɔːlz] комбинезон
+suspenders [səsˈpɛndəz] подтяжки
+wetsuit [ˈwɛts(j)uːt] гидрокостюм
+underwear [ˈʌndəweə] нижнее белье
+balaclava [ˌbæləˈklɑːvə] балаклава
+raincoat [ˈreɪnkəʊt] плащ дождевик
+bow tie [baʊ][taɪ] галстук-бабочка
+outerwear [ˈaʊtəweə] верхняя одежда
+sun hat [sʌn][hæt] шляпа от солнца
+jumpsuit [ˈʤʌmpˌs(j)uːt] комбинезон
+panama hat [ˌpænəˈmɑː][hæt] панама
+nightgown [ˈnaɪtgaʊn] ночная рубашка
+hoodie [ˈhʊdi] толстовка с капюшоном
+flak jacket [flæk][ˈʤækɪt] бронежилет
+ball gown [bɔːl][gaʊn] бальное платье
+dinner jacket [ˈdɪnə][ˈʤækɪt] смокинг
+handkerchief [ˈhæŋkəʧɪf] носовой платок
+polo shirt [ˈpəʊləʊ][ʃɜːt] рубашка поло
+baseball cap [ˈbeɪsbɔːl][ˈkæp] бейсболка
+tweed jacket [twiːd][ˈʤækɪt] твидовый пиджак
+evening gown [ˈiːvnɪŋ][gaʊn] вечернее платье
+wedding gown [ˈwɛdɪŋ][gaʊn] свадебное платье
+life jacket [laɪf][ˈʤækɪt] спасательный жилет
+bathing suit [ˈbeɪðɪŋ][sjuːt] купальный костюм
+flannel shirt [ˈflænl][ʃɜːt] фланелевая рубашка
+school uniform [skuːl][ˈjuːnɪfɔːm] школьная форма
+
+профессии
+president [ˈprɛzɪdənt] президент
+vice-president [ˈvaɪsˈprɛzɪdənt] вице-президент
+director [dɪˈrɛktə] директор
+manager [ˈmænɪʤə] менеджер
+executive officer [ɪgˈzɛkjʊtɪv][ˈɒfɪsə] исполнительный директор
+managing director [ˈmænɪʤɪŋ][dɪˈrɛktə] управляющий директор
+financial director [faɪˈnænʃəl][dɪˈrɛktə] финансовый директор
+marketing director [ˈmɑːkɪtɪŋ][dɪˈrɛktə] директор по маркетингу
+general manager [ˈʤɛnərəl][ˈmænɪʤə] генеральный директор
+assistant manager [əˈsɪstənt][ˈmænɪʤə] помощник менеджера
+office worker [ˈɒfɪs][ˈwɜːkə] офисный работник
+office clerk [ˈɒfɪs][klɑːk] офисный клерк
+receptionist [rɪˈsɛpʃənɪst] секретарь
+secretary [ˈsɛkrətri] секретарша
+assistant [əˈsɪstənt] помощник
+banker [ˈbæŋkə] банкир
+economist [i(ː)ˈkɒnəmɪst] экономист
+accountant [əˈkaʊntənt] бухгалтер
+cashier [kæˈʃɪə] кассир
+sales manager [seɪlz][ˈmænɪʤə] менеджер по продажам
+distributor [dɪsˈtrɪbjʊtə] дилер
+trader [ˈtreɪdə] торговец
+doctor [ˈdɒktə] доктор
+physician [fɪˈzɪʃən] врач
+dean [diːn] декан
+professor [prəˈfɛsə] профессор
+teacher [ˈtiːʧə] учитель
+instructor [ɪnˈstrʌktə] инструктор
+schoolteacher [ˈskuːlˌtiːʧə] школьный учитель
+college teacher [ˈkɒlɪʤ][ˈtiːʧə] преподаватель колледжа
+university teacher [ˌjuːnɪˈvɜːsɪti][ˈtiːʧə] преподаватель университета
+scientist [ˈsaɪəntɪst] ученый
+explorer [ɪksˈplɔːrə] исследователь
+inventor [ɪnˈvɛntə] изобретатель
+mathematician [ˌmæθɪməˈtɪʃən] математик
+physicist [ˈfɪzɪsɪst] физик
+chemist [ˈkɛmɪst] химик
+web developer [wɛb][dɪˈvɛləpə] веб-разработчик
+programmer [ˈprəʊgræmə] программист
+web designer [wɛb][dɪˈzaɪnə] веб-дизайнер
+artist [ˈɑːtɪst] художник
+sculptor [ˈskʌlptə] скульптор
+architect [ˈɑːkɪtɛkt] архитектор
+composer [kəmˈpəʊzə] композитор
+conductor [kənˈdʌktə] проводник
+musician [mju(ː)ˈzɪʃən] музыкант
+pianist [ˈpɪənɪst] пианист
+violinist [ˈvaɪəlɪnɪst] скрипач
+guitarist [gɪˈtɑːrɪst] гитарист
+drummer [ˈdrʌmə] барабанщик
+builder [ˈbɪldə] строитель
+developer [dɪˈvɛləpə] разработчик
+contractor [kənˈtræktə] подрядчик
+engineer [ˌɛnʤɪˈnɪə] инженер
+technician [tɛkˈnɪʃən] техник
+mechanic [mɪˈkænɪk] механик
+electrical engineer [ɪˈlɛktrɪkəl][ˌɛnʤɪˈnɪə] инженер-электрик
+electrician [ɪlɛkˈtrɪʃən] электрик
+pilot [ˈpaɪlət] летчик
+flight engineer [flaɪt][ˌɛnʤɪˈnɪə] бортинженер
+flight navigator [flaɪt][ˈnævɪgeɪtə] навигатор полета
+stewardess [ˈstjʊədɪs] стюардесса
+dispatcher [dɪsˈpæʧə] диспетчер
+mechanic [mɪˈkænɪk] механик
+judge [ˈʤʌʤ] судья
+lawyer [ˈlɔːjə] юрист
+solicitor [səˈlɪsɪtə] адвокат
+police officer [pəˈliːs][ˈɒfɪsə] офицер полиции
+policeman [pəˈliːsmən] полицейский
+fireman [ˈfaɪəmən] пожарный
+tailor [ˈteɪlə] портной
+seamstress [ˈsɪmstrɪs] швея
+postman [ˈpəʊstmən] почтальон
+editor [ˈɛdɪtə] редактор
+translator [trænsˈleɪtə] письменный переводчик
+interpreter [ɪnˈtɜːprɪtə] устный переводчик
+librarian [laɪˈbreərɪən] библиотекарь
+
+овощи
+eggplant [ˈegplɑːnt] баклажан
+squash [skwɔʃ] кабачок
+cabbage [ˈkæbɪʤ] капуста
+broccoli [ˈbrɒkəlɪ] капуста брокколи
+cauliflower [ˈkɔlɪflaʊə] цветная капуста
+potato [pəˈteɪtəʊ] картофель
+onion [ˈʌnjən] лук
+carrot [ˈkærət] морковь
+cucumber [ˈkjuːkʌmbə] огурец
+pepper [ˈpepə] перец
+tomato [təˈmɑːtəʊ] помидор
+radish [ˈrædɪʃ] редис
+turnip [ˈtɜːnɪp] репа
+beetroot [ˈbiːtruːt] свекла
+pumpkin [ˈpʌmpkɪn] тыква
+garlic [ˈgɑːlɪk] чеснок
+beans [biːnz] бобы
+pea [piː] горох
+kidney bean [ˈkɪdnɪˈbiːn] фасоль
+greenery [ˈgriːnərɪ] зелень
+basil [bæzl] базилик
+parsley [ˈpɑːslɪ] петрушка
+lettuce [ˈletɪs] салат
+celery [ˈselərɪ] сельдерей
+asparagus [əsˈpærəgəs] спаржа
+dill [dɪl] укроп
+spinach [ˈspɪnɪʤ] шпинат
+sorrel [ˈsɔːrəl] щавель
+
+фрукты и ягоды
+pear [peə] груша
+lime [laɪm] лайм
+plum [plʌm] слива
+melon [ˈmɛlən] дыня
+apple [ˈæpl] яблоко
+peach [piːʧ] персик
+lemon [ˈlɛmən] лимон
+cherry [ˈʧɛri] вишня
+mango [ˈmæŋgəʊ] манго
+grape [greɪp] виноград
+banana [bəˈnɑːnə] банан
+orange [ˈɒrɪnʤ] апельсин
+coconut [ˈkəʊkənʌt] кокос
+apricot [ˈeɪprɪkɒt] абрикос
+pineapple [ˈpaɪnˌæpl] ананас
+raspberry [ˈrɑːzbəri] малина
+mandarin [ˈmændərɪn] мандарин
+blueberry [ˈbluːbəri] черника
+blackberry [ˈblækbəri] ежевика
+nectarine [ˈnɛktərɪn] нектарин
+avocado [ˌævəʊˈkɑːdəʊ] авокадо
+watermelon [ˈwɔːtəˌmɛlən] арбуз
+pomegranate [ˈpɒmˌgrænɪt] гранат
+strawberry [ˈstrɔːbəri] клубника
+grapefruit [ˈgreɪpˌfruːt] грейпфрут
+passion fruit [ˈpæʃən][fruːt] маракуйя
+blackcurrant [ˈblækˈkʌrənt] черная смородина
+
+семья
+father [ˈfɑːðə] отец
+mother [ˈmʌðə] мама
+parents [ˈpeərənts] родители
+son [sʌn] сын
+daughter [ˈdɔːtə] дочь
+child [ʧaɪld] ребенок
+children [ˈʧɪldrən] дети
+brother [ˈbrʌðə] брат
+sister [ˈsɪstə] сестра
+twins [twɪnz] близнецы
+grandfather [ˈgrændˌfɑːðə] дедушка
+grandmother [ˈgrænˌmʌðə] бабушка
+grandparents [ˈgrænˌpeərənts] бабушка с дедушкой
+grandson [ˈgrænsʌn] внук
+granddaughter [ˈgrænˌdɔːtə] внучка
+grandchild [ˈgrænʧaɪld] внук
+great-grandfather [ˈgreɪtˈgrændˌfɑːðə] прадедушка
+great-grandmother [greɪt]-[ˈgrænˌmʌðə] прабабушка
+great-grandchild [ˈgreɪtˈgrændʧaɪld] правнук
+adopted son [əˈdɒptɪd][sʌn] приемный сын
+adopted daughter [əˈdɒptɪd][ˈdɔːtə] приемная дочь
+adopted child [əˈdɒptɪd][ʧaɪld] усыновленный ребенок
+half-brother [ˈhɑːfˌbrʌðə] сводный брат
+half-sister [ˈhɑːfˈsɪstə] сводная сестра
+stepfather [ˈstɛpˌfɑːðə] отчим
+stepmother [ˈstɛpˌmʌðə] мачеха
+stepchild [ˈstɛpʧaɪld] пасынок
+foster family [ˈfɒstə][ˈfæmɪli] приемная семья
+foster father [ˈfɒstə][ˈfɑːðə] приемный отец
+foster mother [ˈfɒstə][ˈmʌðə] приемная мать
+orphan [ˈɔːfən] сирота
+uncle [ˈʌŋkl] дядя
+aunt [ɑːnt] тетя
+nephew [ˈnɛvjuː] племянник
+niece [niːs] племянница
+cousin [ˈkʌzn] двоюродный брат
+first cousin [fɜːst][ˈkʌzn] двоюродный брат
+second cousin [ˈsɛkənd][ˈkʌzn] троюродный брат
+relatives [ˈrɛlətɪvz] родственники
+family [ˈfæmɪli] семья
+single [ˈsɪŋgl] не замужем
+married [ˈmærɪd] состоящий в браке
+engaged [ɪnˈgeɪʤd] обрученный
+divorced [dɪˈvɔːst] разведенный
+widowed [ˈwɪdəʊd] овдовевший
+marriage [ˈmærɪʤ] брак
+husband [ˈhʌzbənd] муж
+wife [waɪf] жена
+spouse [spaʊz] супруг
+ex-husband [ɛks]-[ˈhʌzbənd] бывший муж
+ex-wife [ɛks]-[waɪf] бывшая жена
+divorce [dɪˈvɔːs] расторжение брака
+
+украшения
+amulet [ˈæmjʊlɪt] амулет
+beads [biːdz] бусы
+bow [baʊ] бант
+bracelet [ˈbreɪslɪt] браслет
+brooch [brəʊʧ] брошь
+chain [ʧeɪn] цепочка
+diadem [ˈdaɪədɛm] диадема
+ear-rings [ˈɪərɪŋz] серьги
+hair-slide [ˈheəslaɪd] заколка
+hair-pin [heə]-[pɪn] шпилька
+jewel-box [ˈʤuːəlbɒks] шкатулка
+locket [ˈlɒkɪt] медальон
+mascot [ˈmæskət] талисман
+necklace [ˈnɛklɪs] ожерелье
+pendent [ˈpɛndənt] кулон
+ring [rɪŋ] кольцо
+finger-ring [ˈfɪŋgə]-[rɪŋ] перстень
+tiara [tɪˈɑːrə] тиара
+
+наречия
+actually [ˈækʧuəli] фактически
+also [ˈɔːlsəu] также
+anyway [ˈenɪweɪ] в любом случае
+basically [ˈbeɪsɪkli] в основном
+besides [bɪˈsaɪdz] кроме того
+certainly [ˈsɜːtnli] несомненно
+especially [ɪsˈpeʃəli] особенно
+
+прилагательные
+able [‘eibl] способный
+alone [ə’ləun] единственный
+bad [bæd] плохой
+beautiful [‘bju:tɪf(ə)l] красивый
+big [big] большой
