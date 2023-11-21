@@ -6,7 +6,6 @@ import java.util.ArrayList;
 import java.util.Scanner;
 
 public class User implements UserImpl {
-
     private String username;
     private String password;
     private int acessLevel;

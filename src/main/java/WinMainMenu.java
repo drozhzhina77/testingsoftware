@@ -158,15 +158,17 @@ public class WinMainMenu extends JFrame {
         return panel;
     }
 
-    private class ButtonPress implements ActionListener {
+    public static class ButtonPress implements ActionListener {
         public void actionPerformed(ActionEvent ae) {
             if (ae.getActionCommand().equals("Начать") && User.getCurUser() == null) {
                 WinAuthorization.setFrame(new WinAuthorization());
                 WinMainMenu.getFrame().dispose();
+                WinMainMenu.setFrame(null);
             } else if (ae.getActionCommand().equals("Начать") && User.getCurUser() != null) {
                 try {
                     WinChooseCategory.setFrame(new WinChooseCategory());
                     WinMainMenu.getFrame().dispose();
+                    WinMainMenu.setFrame(null);
                 } catch (MyFileException e) {
                     e.printStackTrace();
                 }
@@ -175,6 +177,7 @@ public class WinMainMenu extends JFrame {
                     WinChooseCategory.setCallFromCateg(false);
                     WinDictionaryGeneral.setCallFromGenDict(false);
                     WinMainMenu.getFrame().dispose();
+                    WinMainMenu.setFrame(null);
                     WinDictionaryUser.setFrame(new WinDictionaryUser());
                 } catch (MyFileException | IOException e) {
                     e.printStackTrace();
@@ -182,6 +185,7 @@ public class WinMainMenu extends JFrame {
             } else if (ae.getActionCommand().equals("Результаты")) {
                 try {
                     WinMainMenu.getFrame().dispose();
+                    WinMainMenu.setFrame(null);
                     WinResultsGeneral.setFrame(new WinResultsGeneral());
                 } catch (MyFileException e) {
                     e.printStackTrace();

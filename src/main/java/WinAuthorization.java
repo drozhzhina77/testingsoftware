@@ -111,6 +111,22 @@ public class WinAuthorization extends JFrame {
         return WinAuthorization.frame;
     }
 
+    public JTextField getUsername() {
+        return username;
+    }
+
+    public void setUsername(JTextField username) {
+        this.username = username;
+    }
+
+    public JTextField getPassword() {
+        return password;
+    }
+
+    public void setPassword(JTextField password) {
+        this.password = password;
+    }
+
     //Устанавливает диалоговое окно в исходное состояние
     public void setUser() {
         username.setText("");
