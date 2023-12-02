@@ -41,8 +41,8 @@ public class TestWinMainMenu {
         btnDict.addActionListener(new WinMainMenu.ButtonPress());
         btnDict.doClick();
 
-        assertEquals(WinChooseCategory.getCallFromCateg(), false);
-        assertEquals(WinDictionaryGeneral.getCallFromGenDict(), false);
+        assertEquals(false, WinChooseCategory.getCallFromCateg());
+        assertEquals(false, WinDictionaryGeneral.getCallFromGenDict());
         assertNull(WinMainMenu.getFrame());
         assertNotNull(WinDictionaryUser.getFrame());
     }

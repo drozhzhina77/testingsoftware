@@ -17,6 +17,7 @@ public class WinRegistration extends JFrame {
     private JTextField course;
     private static WinRegistration frame;
     private Border bord;
+    private String messageJOptionPane;
 
     public WinRegistration() {
         setLayout(new BorderLayout());
@@ -46,7 +47,7 @@ public class WinRegistration extends JFrame {
         username.getDocument().addDocumentListener((txtFldDocumentListener) e -> {
             String usnameStud = username.getText();
             boolean isUsnameValid = User.isUsernameValid(usnameStud);
-            if (!isUsnameValid)
+            if ((!isUsnameValid) && (!usnameStud.isEmpty()))
                 username.setBorder(BorderFactory.createLineBorder(Color.decode("#ff0000")));
             else {
                 username.setBorder(bord);
@@ -72,7 +73,7 @@ public class WinRegistration extends JFrame {
         password.getDocument().addDocumentListener((txtFldDocumentListener) e -> {
             String passwdStud = password.getText();
             boolean isPasswdValid = User.isPasswordValid(passwdStud);
-            if (!isPasswdValid) {
+            if ((!isPasswdValid) && (!passwdStud.isEmpty())) {
                 password.setBorder(BorderFactory.createLineBorder(Color.decode("#ff0000")));
             } else {
                 password.setBorder(bord);
@@ -185,6 +186,34 @@ public class WinRegistration extends JFrame {
         return WinRegistration.frame;
     }
 
+    public void setUsername(JTextField username) {
+        this.username = username;
+    }
+
+    public void setPassword(JTextField password) {
+        this.password = password;
+    }
+
+    public void setName(JTextField name) {
+        this.name = name;
+    }
+
+    public void setGroup(JTextField group) {
+        this.group = group;
+    }
+
+    public void setCourse(JTextField course) {
+        this.course = course;
+    }
+
+    public void setBord(Border bord) {
+        this.bord = bord;
+    }
+
+    public String getMessageJOptionPane() {
+        return messageJOptionPane;
+    }
+
     @FunctionalInterface
     public interface txtFldDocumentListener extends DocumentListener {
         void checkData(DocumentEvent e);
@@ -230,22 +259,28 @@ public class WinRegistration extends JFrame {
         boolean isPasswdValid = User.isPasswordValid(passwdStud);
         User us = User.seekUserInSystem(usnameStud, listUsers);
         if (usnameStud.isEmpty() || passwdStud.isEmpty() || nameStud.isEmpty() || groupStud.isEmpty() || courseStud.isEmpty()) {
-            JOptionPane.showMessageDialog(this, "Не все поля заполнены!", "Предупреждение",
+            messageJOptionPane = "Не все поля заполнены!";
+            JOptionPane.showMessageDialog(this, messageJOptionPane, "Предупреждение",
                     JOptionPane.WARNING_MESSAGE);
         } else if (!isNameValid) {
-            JOptionPane.showMessageDialog(this, "Некорректное ввод ФИО!", "Предупреждение",
+            messageJOptionPane = "Некорректный ввод ФИО!";
+            JOptionPane.showMessageDialog(this, messageJOptionPane, "Предупреждение",
                     JOptionPane.WARNING_MESSAGE);
         } else if (us != null) {
-            JOptionPane.showMessageDialog(this, "Такой логин уже существует!", "Предупреждение",
+            messageJOptionPane = "Такой логин уже существует!";
+            JOptionPane.showMessageDialog(this, messageJOptionPane, "Предупреждение",
                     JOptionPane.WARNING_MESSAGE);
         } else if (!isUsnameValid) {
-            JOptionPane.showMessageDialog(this, "Некорректный ввод логина!", "Предупреждение",
+            messageJOptionPane = "Некорректный ввод логина!";
+            JOptionPane.showMessageDialog(this, messageJOptionPane, "Предупреждение",
                     JOptionPane.WARNING_MESSAGE);
         } else if (!isPasswdValid) {
-            JOptionPane.showMessageDialog(this, "Некорректный ввод пароля!", "Предупреждение",
+            messageJOptionPane = "Некорректный ввод пароля!";
+            JOptionPane.showMessageDialog(this, messageJOptionPane, "Предупреждение",
                     JOptionPane.WARNING_MESSAGE);
         } else {
-            JOptionPane.showMessageDialog(this, "Регистрация прошла успешно!", "Сообщение",
+            messageJOptionPane = "Регистрация прошла успешно!";
+            JOptionPane.showMessageDialog(this, messageJOptionPane, "Сообщение",
                     JOptionPane.INFORMATION_MESSAGE);
             try (FileWriter writer = new FileWriter("accounts.txt", true)) {
                 writer.append(usnameStud + "~" + passwdStud + "~" + 0 + "\n" +

@@ -19,7 +19,7 @@ public class TestWinAuthorization {
     }
 
     //задать текст полям для ввода
-    public void setFields(String userText, String passText){
+    public void setFields(String userText, String passText) {
         username.setText(userText);
         password.setText(passText);
         winAuthorization.setUsername(username);
@@ -32,7 +32,7 @@ public class TestWinAuthorization {
         initWindowAndTextFields();
         setFields("", "");
         boolean isUser = winAuthorization.getUser();
-        assertEquals(isUser, false);
+        assertEquals(false, isUser);
         assertNull(User.getCurUser());
     }
 
@@ -42,7 +42,7 @@ public class TestWinAuthorization {
         initWindowAndTextFields();
         setFields("", "fBh23k&ju");
         boolean isUser = winAuthorization.getUser();
-        assertEquals(isUser, false);
+        assertEquals(false, isUser);
         assertNull(User.getCurUser());
     }
 
@@ -50,9 +50,9 @@ public class TestWinAuthorization {
     // тест на вход с пустым полем пароля
     public void getUserWithEmptyFieldPasswordTest() throws MyFileException {
         initWindowAndTextFields();
-        setFields("matvey12","");
+        setFields("matvey12", "");
         boolean isUser = winAuthorization.getUser();
-        assertEquals(isUser, false);
+        assertEquals(false, isUser);
         assertNull(User.getCurUser());
     }
 
@@ -60,9 +60,9 @@ public class TestWinAuthorization {
     // тест на вход несуществующего пользователя
     public void getUserWithIncorrectFieldsTest() throws MyFileException {
         initWindowAndTextFields();
-        setFields("matvey123","fBh23k&ju");
+        setFields("matvey123", "fBh23k&ju");
         boolean isUser = winAuthorization.getUser();
-        assertEquals(isUser, false);
+        assertEquals(false, isUser);
         assertNull(User.getCurUser());
     }
 
@@ -72,7 +72,7 @@ public class TestWinAuthorization {
         initWindowAndTextFields();
         setFields("matvey12", "fBh23k&ju");
         boolean isUser = winAuthorization.getUser();
-        assertEquals(isUser, true);
+        assertEquals(true, isUser);
         assertNotNull(User.getCurUser());
     }
 }
