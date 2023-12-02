@@ -26,6 +26,10 @@ public class DictionaryWords implements DictionaryWordsImpl {
         return category;
     }
 
+    public void setListCategory(ArrayList<Category> category) {
+        this.category = category;
+    }
+
     public Category getCategoryByName(String nameCateg) {
         Category categ = null;
         ArrayList<Category> list = getListCategory();

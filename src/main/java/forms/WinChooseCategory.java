@@ -299,6 +299,14 @@ public class WinChooseCategory extends JFrame {
         WinChooseCategory.generalDict = generalDict;
     }
 
+    public ArrayList<Category> getGeneralListCateg() {
+        return generalListCateg;
+    }
+
+    public void setGeneralListCateg(ArrayList<Category> generalListCateg) {
+        this.generalListCateg = generalListCateg;
+    }
+
     public static DictionaryWords getTestDict() {
         return testDict;
     }

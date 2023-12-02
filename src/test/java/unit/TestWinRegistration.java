@@ -108,7 +108,8 @@ public class TestWinRegistration {
     }
 
     @Test
-    // тест на регистрацию с корректными данными и на создание и сохранение нового пользователя
+    /* тест на регистрацию с корректными данными и на создание и сохранение нового пользователя,
+       для повторного запуска теста необходимо выбрать другой логин или удалить из файла запись с логином kira_389 */
     public void getStudentWithCorrectFieldsTest() throws MyFileException {
         initWindowAndTextFields();
         setFields("kira_389", "efjkUE049+", "Иванова Кира Сергеевна", "ИЭБ-18", "4");

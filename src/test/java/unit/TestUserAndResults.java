@@ -4,13 +4,14 @@ import forms.WinChooseCategory;
 import model.*;
 import org.junit.jupiter.api.Test;
 
+import javax.swing.*;
 import java.util.ArrayList;
 
 import static org.junit.jupiter.api.Assertions.*;
 
 /**
- *  тест для проверки логина и пароля на корректность и для
- *  подсчета количества верных ответов и оценки
+ * тест для проверки логина и пароля на корректность и для
+ * подсчета количества верных ответов и оценки
  */
 public class TestUserAndResults {
     /**
@@ -20,6 +21,11 @@ public class TestUserAndResults {
     public void calcMarkTest() throws MyFileException {
         User us = new User();
         WinChooseCategory winChooseCategory = new WinChooseCategory();
+        DictionaryWords dict = new DictionaryWords();
+        ArrayList<Category> genListCateg = winChooseCategory.getGeneralListCateg();
+        dict.setListCategory(genListCateg);
+        WinChooseCategory.setTestDict(dict);
+
         double mark = ExerciseWithVariants.getMaxCountExerc();
         //создадим для теста список с заданиями
         ArrayList<Exercise> listExerc = ExerciseWithVariants.makeExercises();
@@ -28,13 +34,15 @@ public class TestUserAndResults {
             Exercise curExerc = listExerc.get(i);
             curExerc.setUserAnswer(curExerc.getRightAnswer());
         }
+        assertNotEquals(0, listExerc.size());
         assertEquals(listExerc.size() / mark, us.calcMark(listExerc)); //процент эл-в в списке равно проценту верных ответов
+
         //изменим каждый четный ответ пользователя на неверный и проверим процент верных ответов
         int kRight = listExerc.size();
         for (int i = 0; i < listExerc.size(); i++) {
             if (i % 2 == 0) {
                 String testAnswer = "testAnswer" + i;
-                listExerc.get(0).setUserAnswer(testAnswer);
+                listExerc.get(i).setUserAnswer(testAnswer);
                 kRight--;
             }
         }
@@ -69,6 +77,11 @@ public class TestUserAndResults {
     public void calcMark2Test() throws MyFileException {
         User us = new User();
         WinChooseCategory winChooseCategory = new WinChooseCategory();
+        DictionaryWords dict = new DictionaryWords();
+        ArrayList<Category> genListCateg = winChooseCategory.getGeneralListCateg();
+        dict.setListCategory(genListCateg);
+        WinChooseCategory.setTestDict(dict);
+
         //создадим для теста список с заданиями
         ArrayList<Exercise> listExerc = ExerciseWithVariants.makeExercises();
         //запишем в качестве ответов пользователя все правильные ответы
@@ -76,13 +89,15 @@ public class TestUserAndResults {
             Exercise curExerc = listExerc.get(i);
             curExerc.setUserAnswer(curExerc.getRightAnswer());
         }
+        assertNotEquals(0, listExerc.size());
         assertEquals(listExerc.size(), us.calcMark(listExerc, 0)); //кол-во эл-в в списке равно кол-ву верных ответов
+
         //изменим каждый четный ответ пользователя на неверный и проверим количество верных ответов
         int kRight = listExerc.size();
         for (int i = 0; i < listExerc.size(); i++) {
             if (i % 2 == 0) {
                 String testAnswer = "testAnswer" + i;
-                listExerc.get(0).setUserAnswer(testAnswer);
+                listExerc.get(i).setUserAnswer(testAnswer);
                 kRight--;
             }
         }
