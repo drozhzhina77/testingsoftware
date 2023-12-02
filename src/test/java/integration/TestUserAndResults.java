@@ -10,7 +10,12 @@ import java.util.List;
 import static org.junit.jupiter.api.Assertions.*;
 import static org.junit.jupiter.api.Assertions.assertEquals;
 
-public class TestUser {
+/**
+ *  тест для проверки получения пользователей из файла accounts.txt,
+ *  сохранения результатов в файл statistics.txt
+ *  получения результатов из файла statistics.txt
+ */
+public class TestUserAndResults {
     /**
      * тест на чтение аккаунтов и на создание списка пользователей
      * <p>
@@ -38,6 +43,7 @@ public class TestUser {
         assertEquals(0, user2.getAcessLevel()); //уровень доступа
     }
 
+    //тест для сохранения результатов в файл statistics.txt
     @Test
     public void saveUsersResultsIntoFileTest() throws MyFileException {
         //считаем изначальное содержимое файла statistics.txt
