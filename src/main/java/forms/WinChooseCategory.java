@@ -16,6 +16,7 @@ public class WinChooseCategory extends JFrame {
     private JPanel panelRadioGroup;
     private DefaultListModel<String> model;
     private JList<String> wordList;
+    private JList<String> curCategList;
     private JScrollPane scrollPane;
     private JPanel listPanelCateg;
     private String prefix = "Выбраны: ";
@@ -76,7 +77,7 @@ public class WinChooseCategory extends JFrame {
         }};
 
         modelCurCateg = new DefaultListModel();
-        JList<String> curCategList = new JList(modelCurCateg);
+        curCategList = new JList(modelCurCateg);
         //если выбрана категория, она отображается в списке выбранных категорий
         wordList.addListSelectionListener(event -> {
             modelCurCateg.removeAllElements();
@@ -313,6 +314,22 @@ public class WinChooseCategory extends JFrame {
 
     public static void setTestDict(DictionaryWords testDict) {
         WinChooseCategory.testDict = testDict;
+    }
+
+    public JList<String> getWordList() {
+        return wordList;
+    }
+
+    public void setWordList(JList<String> wordList) {
+        this.wordList = wordList;
+    }
+
+    public JList<String> getCurCategList() {
+        return curCategList;
+    }
+
+    public void setCurCategList(JList<String> curCategList) {
+        this.curCategList = curCategList;
     }
 
     public static boolean getCallFromCateg() {
