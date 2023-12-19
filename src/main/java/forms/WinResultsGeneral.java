@@ -146,6 +146,14 @@ public class WinResultsGeneral extends JFrame {
         WinResultsGeneral.frame = frame;
     }
 
+    public JTable getTable() {
+        return table;
+    }
+
+    public void setTable(JTable table) {
+        this.table = table;
+    }
+
     private void updateCheckboxMenuItems() {
         rowsltem.setSelected(table.getRowSelectionAllowed());
         columnsltem.setSelected(table.getColumnSelectionAllowed());
