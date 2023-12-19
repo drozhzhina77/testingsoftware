@@ -1,6 +1,7 @@
 package forms;
 
 import model.*;
+
 import javax.swing.*;
 import java.awt.*;
 import java.awt.event.WindowAdapter;
@@ -8,8 +9,10 @@ import java.awt.event.WindowEvent;
 import java.util.ArrayList;
 
 /* Окно результатов пользователя после тренировки */
-class WinResultsUserTrain extends JFrame {
+public class WinResultsUserTrain extends JFrame {
     private static WinResultsUserTrain frame;
+    private JList<String> learnedList;
+    private JList<String> newList;
 
     public WinResultsUserTrain(ArrayList<Word> newWords, ArrayList<Word> learnedWords) {
         SpringLayout layout = new SpringLayout();
@@ -25,10 +28,10 @@ class WinResultsUserTrain extends JFrame {
         for (int i = 0; i < learnedWords.size(); i++) {
             model.addElement(learnedWords.get(i).getEngValue() + " ");
         }
-        if (learnedWords.size() < 1){
+        if (learnedWords.size() < 1) {
             model.addElement("отсутствуют");
         }
-        JList<String> learnedList = new JList(model);
+        learnedList = new JList(model);
         //создаем панель и прокрутку для списка выученных слов
         JPanel listPanelLearned = new JPanel();
         listPanelLearned.setLayout(new BoxLayout(listPanelLearned, BoxLayout.Y_AXIS));
@@ -48,10 +51,10 @@ class WinResultsUserTrain extends JFrame {
         for (int i = 0; i < newWords.size(); i++) {
             modelNew.addElement(newWords.get(i).getEngValue() + " ");
         }
-        if (newWords.size() < 1){
+        if (newWords.size() < 1) {
             modelNew.addElement("отсутствуют");
         }
-        JList<String> newList = new JList(modelNew);
+        newList = new JList(modelNew);
 
         //создаем панель и прокрутку для списка добавленных слов
         JPanel listPanelNew = new JPanel();
@@ -144,5 +147,13 @@ class WinResultsUserTrain extends JFrame {
 
     public static WinResultsUserTrain getFrame() {
         return WinResultsUserTrain.frame;
+    }
+
+    public JList<String> getLearnedList() {
+        return learnedList;
+    }
+
+    public JList<String> getNewList() {
+        return newList;
     }
 }
