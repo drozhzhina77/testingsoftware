@@ -10,6 +10,14 @@ public class WinExerciseWithVariants extends JFrame {
     private ButtonGroup groupRadio;
     private JPanel panelRadioGroup;
     private static WinExerciseWithVariants frame;
+    private JLabel labelTask;
+    private JLabel labelWordTask;
+    private JRadioButton radioButton1;
+    private JRadioButton radioButton2;
+    private JRadioButton radioButton3;
+    private JRadioButton radioButton4;
+    private JButton buttonOk;
+    private String message;
 
     public WinExerciseWithVariants(ExerciseWithVariants exercWithVar) {
         SpringLayout layout = new SpringLayout();
@@ -23,7 +31,7 @@ public class WinExerciseWithVariants extends JFrame {
             setFont(new Font("Segoe Print", Font.BOLD, 14));
         }};
         JPanel panelTask = new JPanel();
-        panelTask.add(new JLabel(exercWithVar.getTask()) {{
+        labelTask = new JLabel(exercWithVar.getTask()) {{
             if (exercWithVar.getType() == 3 || exercWithVar.getType() == 4) {
                 setPreferredSize(new Dimension(280, 40));
                 setFont(new Font("Segoe Print", Font.BOLD, 13));
@@ -31,9 +39,10 @@ public class WinExerciseWithVariants extends JFrame {
                 setPreferredSize(new Dimension(250, 15));
                 setFont(new Font("Segoe Print", Font.BOLD, 14));
             }
-        }});
+        }};
+        panelTask.add(labelTask);
         panelTask.setBackground(new Color(237, 246, 229));
-        JLabel labelWordTask = new JLabel(exercWithVar.getWordTask()) {{
+        labelWordTask = new JLabel(exercWithVar.getWordTask()) {{
             setPreferredSize(new Dimension(350, 15));
             setFont(new Font("Segoe Print", Font.BOLD, 14));
         }};
@@ -42,11 +51,10 @@ public class WinExerciseWithVariants extends JFrame {
         groupRadio = new ButtonGroup();
         panelRadioGroup = new JPanel();
         panelRadioGroup.setLayout(new GridLayout(0, 1));
-        addRadioButton(exercWithVar.getFirstVar(), false, exercWithVar);
-        addRadioButton(exercWithVar.getSecondVar(), false, exercWithVar);
-        addRadioButton(exercWithVar.getThirdVar(), false, exercWithVar);
-        addRadioButton(exercWithVar.getFourthVar(), false, exercWithVar);
-
+        radioButton1 = addRadioButton(exercWithVar.getFirstVar(), false, exercWithVar);
+        radioButton2 = addRadioButton(exercWithVar.getSecondVar(), false, exercWithVar);
+        radioButton3 = addRadioButton(exercWithVar.getThirdVar(), false, exercWithVar);
+        radioButton4 = addRadioButton(exercWithVar.getFourthVar(), false, exercWithVar);
         add(labelNum);
         add(panelTask);
         add(labelWordTask);
@@ -69,7 +77,7 @@ public class WinExerciseWithVariants extends JFrame {
         layout.putConstraint(SpringLayout.WEST, panelRadioGroup, 15,
                 SpringLayout.WEST, this);
 
-        JButton buttonOk = new JButton("Далее") {
+        buttonOk = new JButton("Далее") {
             {
                 setSize(new Dimension(120, 25));
                 setMaximumSize(getSize());
@@ -78,8 +86,10 @@ public class WinExerciseWithVariants extends JFrame {
             }
         };
         buttonOk.addActionListener(event -> {
+            message = "";
             if (!exercWithVar.getUserAnswer().equals(exercWithVar.getRightAnswer())) {
-                JOptionPane.showMessageDialog(this, "Неверный ответ!", "Ошибка", JOptionPane.ERROR_MESSAGE);
+                message = "Неверный ответ!";
+                JOptionPane.showMessageDialog(this, message, "Ошибка", JOptionPane.ERROR_MESSAGE);
             }
             WinExercise win = new WinExercise();
             try {
@@ -111,7 +121,39 @@ public class WinExerciseWithVariants extends JFrame {
         WinExerciseWithVariants.frame = frame;
     }
 
-    public void addRadioButton(String name, boolean isSelected, ExerciseWithVariants exercWithVar) {
+    public JLabel getLabelTask() {
+        return labelTask;
+    }
+
+    public JLabel getLabelWordTask() {
+        return labelWordTask;
+    }
+
+    public JRadioButton getRadioButton1() {
+        return radioButton1;
+    }
+
+    public JRadioButton getRadioButton2() {
+        return radioButton2;
+    }
+
+    public JRadioButton getRadioButton3() {
+        return radioButton3;
+    }
+
+    public JRadioButton getRadioButton4() {
+        return radioButton4;
+    }
+
+    public JButton getButtonOk() {
+        return buttonOk;
+    }
+
+    public String getMessage() {
+        return message;
+    }
+
+    public JRadioButton addRadioButton(String name, boolean isSelected, ExerciseWithVariants exercWithVar) {
         JRadioButton button = new JRadioButton(name, isSelected);
         button.setBackground(new Color(237, 246, 229));
         if (exercWithVar.getType() == 3) {
@@ -125,6 +167,6 @@ public class WinExerciseWithVariants extends JFrame {
             exercWithVar.setUserAnswer(((JRadioButton) e.getSource()).getText().trim().toLowerCase().replaceAll("\\s+", " "));
         };
         button.addActionListener(listener);
+        return button;
     }
-
 }

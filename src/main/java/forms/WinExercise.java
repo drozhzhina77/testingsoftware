@@ -15,6 +15,10 @@ public class WinExercise {
         return WinExercise.listExercises;
     }
 
+    public static void setListExercises(ArrayList<Exercise> listExercises) {
+        WinExercise.listExercises = listExercises;
+    }
+
     public static int getICurExerc() {
         return WinExercise.iCurExerc;
     }

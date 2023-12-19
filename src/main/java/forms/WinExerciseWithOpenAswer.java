@@ -8,6 +8,10 @@ import java.awt.*;
 public class WinExerciseWithOpenAswer extends JFrame {
     private JTextField txtFldUsAnswer;
     private static WinExerciseWithOpenAswer frame;
+    private JLabel labelTask;
+    private JLabel labelWordTask;
+    private JButton buttonOk;
+    private String message;
 
     public WinExerciseWithOpenAswer(Exercise exerc) {
         SpringLayout layout = new SpringLayout();
@@ -21,12 +25,13 @@ public class WinExerciseWithOpenAswer extends JFrame {
             setFont(new Font("Segoe Print", Font.BOLD, 14));
         }};
         JPanel panelTask = new JPanel();
-        panelTask.add(new JLabel(exerc.getTask()) {{
+        labelTask = new JLabel(exerc.getTask()) {{
             setPreferredSize(new Dimension(245, 15));
             setFont(new Font("Segoe Print", Font.BOLD, 14));
-        }});
+        }};
+        panelTask.add(labelTask);
         panelTask.setBackground(new Color(237, 246, 229));
-        JLabel labelWordTask = new JLabel(exerc.getWordTask()) {{
+        labelWordTask = new JLabel(exerc.getWordTask()) {{
             setPreferredSize(new Dimension(350, 15));
             setFont(new Font("Segoe Print", Font.BOLD, 14));
         }};
@@ -67,7 +72,7 @@ public class WinExerciseWithOpenAswer extends JFrame {
         layout.putConstraint(SpringLayout.WEST, panelAnsw, 15,
                 SpringLayout.WEST, this);
 
-        JButton buttonOk = new JButton("Далее") {
+        buttonOk = new JButton("Далее") {
             {
                 setSize(new Dimension(120, 25));
                 setMaximumSize(getSize());
@@ -76,8 +81,10 @@ public class WinExerciseWithOpenAswer extends JFrame {
             }
         };
         buttonOk.addActionListener(event -> {
+            message = "";
             exerc.setUserAnswer(txtFldUsAnswer.getText().trim().toLowerCase().replaceAll("\\s+", " "));
             if (!exerc.getUserAnswer().equals(exerc.getRightAnswer())) {
+                message = "Неверный ответ!";
                 JOptionPane.showMessageDialog(this, "Неверный ответ!", "Ошибка", JOptionPane.ERROR_MESSAGE);
             }
             WinExercise win = new WinExercise();
@@ -110,4 +117,27 @@ public class WinExerciseWithOpenAswer extends JFrame {
         WinExerciseWithOpenAswer.frame = frame;
     }
 
+    public JLabel getLabelTask() {
+        return labelTask;
+    }
+
+    public JLabel getLabelWordTask() {
+        return labelWordTask;
+    }
+
+    public JTextField getTxtFldUsAnswer() {
+        return txtFldUsAnswer;
+    }
+
+    public void setTxtFldUsAnswer(JTextField txtFldUsAnswer) {
+        this.txtFldUsAnswer = txtFldUsAnswer;
+    }
+
+    public JButton getButtonOk() {
+        return buttonOk;
+    }
+
+    public String getMessage() {
+        return message;
+    }
 }
