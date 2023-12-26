@@ -17,7 +17,7 @@ import static org.junit.jupiter.api.Assertions.assertEquals;
 public class TestWinExercise {
     @Test
     //тест для окна с вариантами ответа и для окна с открытым ответом
-    public void getCellsResultsUserExamTest() throws MyFileException {
+    public void getExerciseFillAndAnswerTest() throws MyFileException {
         //создадим пользователя и зададим 2 категории: природа и животные
         User us = new User("petr_752", "pwAsfg+64", 0);
         User.setCurUser(us);
