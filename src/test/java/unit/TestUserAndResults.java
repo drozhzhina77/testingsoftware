@@ -26,7 +26,7 @@ public class TestUserAndResults {
         dict.setListCategory(genListCateg);
         WinChooseCategory.setTestDict(dict);
 
-        double mark = ExerciseWithVariants.getMaxCountExerc();
+        double maxCountExerc = ExerciseWithVariants.getMaxCountExerc();
         //создадим для теста список с заданиями
         ArrayList<Exercise> listExerc = ExerciseWithVariants.makeExercises();
         //запишем в качестве ответов пользователя все правильные ответы
@@ -35,7 +35,7 @@ public class TestUserAndResults {
             curExerc.setUserAnswer(curExerc.getRightAnswer());
         }
         assertNotEquals(0, listExerc.size());
-        assertEquals(listExerc.size() / mark, us.calcMark(listExerc)); //процент эл-в в списке равно проценту верных ответов
+        assertEquals(listExerc.size() / maxCountExerc, us.calcMark(listExerc)); //процент эл-в в списке равно проценту верных ответов
 
         //изменим каждый четный ответ пользователя на неверный и проверим процент верных ответов
         int kRight = listExerc.size();
@@ -46,7 +46,7 @@ public class TestUserAndResults {
                 kRight--;
             }
         }
-        assertEquals(kRight / mark, us.calcMark(listExerc));
+        assertEquals(kRight / maxCountExerc, us.calcMark(listExerc));
     }
 
     /***
