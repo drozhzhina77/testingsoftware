@@ -69,6 +69,7 @@ public class WinChooseCategory extends JFrame {
         }
         model.addElement("мой словарь ");
         wordList = new JList(model);
+        wordList.setName("wordList");
 
         JLabel labelCurCateg = new JLabel(prefix) {{
             setPreferredSize(new Dimension(80, 15));
@@ -78,6 +79,7 @@ public class WinChooseCategory extends JFrame {
 
         modelCurCateg = new DefaultListModel();
         curCategList = new JList(modelCurCateg);
+        curCategList.setName("curCategList");
         //если выбрана категория, она отображается в списке выбранных категорий
         wordList.addListSelectionListener(event -> {
             modelCurCateg.removeAllElements();
@@ -145,6 +147,7 @@ public class WinChooseCategory extends JFrame {
 
         JButton buttonMenu = new JButton("Меню") {
             {
+                setName("menu");
                 setSize(new Dimension(120, 20));
                 setMaximumSize(getSize());
                 setBackground(new Color(237, 246, 229));
@@ -158,6 +161,7 @@ public class WinChooseCategory extends JFrame {
 
         JButton buttonOk = new JButton("Далее") {
             {
+                setName("next");
                 setSize(new Dimension(120, 20));
                 setMaximumSize(getSize());
                 setBackground(new Color(237, 246, 229));
@@ -365,6 +369,7 @@ public class WinChooseCategory extends JFrame {
 
     public void addRadioButton(String name, boolean isSelected) {
         JRadioButton button = new JRadioButton(name, isSelected);
+        button.setName(name);
         button.setBackground(new Color(237, 246, 229));
         groupRadio.add(button);
         panelRadioGroup.add(button);

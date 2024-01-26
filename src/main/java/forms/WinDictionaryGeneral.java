@@ -40,6 +40,7 @@ public class WinDictionaryGeneral extends JFrame {
         TableModel model = new DefaultTableModel(cells, columnNames);
 
         table = new JTable(model);
+        table.setName("tableDictGen");
         table.setDefaultRenderer(Object.class, new TableRenderer());
         table.setRowHeight(50);
 
@@ -96,6 +97,7 @@ public class WinDictionaryGeneral extends JFrame {
         selectionMenu.add(cellsltem);
 
         JButton menuButton = new JButton("Меню");
+        menuButton.setName("menu");
         menuButton.setBackground(new Color(237, 246, 229));
         menuButton.setFont(new Font("Segoe Print", Font.BOLD, 12));
         menuButton.addActionListener(event -> {
@@ -103,12 +105,15 @@ public class WinDictionaryGeneral extends JFrame {
             WinMainMenu.setFrame(new WinMainMenu());
         });
         JButton dictButton = new JButton("Мой словарь");
+        dictButton.setName("myDictionary");
         dictButton.setBackground(new Color(237, 246, 229));
         dictButton.setFont(new Font("Segoe Print", Font.BOLD, 12));
         dictButton.addActionListener(event -> {
             try {
-                WinDictionaryUser.setFrame(new WinDictionaryUser());
-                WinDictionaryGeneral.getFrame().dispose();
+                try {
+                    WinDictionaryUser.setFrame(new WinDictionaryUser());
+                    WinDictionaryGeneral.getFrame().dispose();
+                } catch (NullPointerException npe) {}
             } catch (MyFileException | IOException myFileException) {
                 myFileException.printStackTrace();
             }

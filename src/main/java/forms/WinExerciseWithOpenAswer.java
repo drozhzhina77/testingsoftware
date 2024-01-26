@@ -26,12 +26,14 @@ public class WinExerciseWithOpenAswer extends JFrame {
         }};
         JPanel panelTask = new JPanel();
         labelTask = new JLabel(exerc.getTask()) {{
+            setName("labelTask");
             setPreferredSize(new Dimension(245, 15));
             setFont(new Font("Segoe Print", Font.BOLD, 14));
         }};
         panelTask.add(labelTask);
         panelTask.setBackground(new Color(237, 246, 229));
         labelWordTask = new JLabel(exerc.getWordTask()) {{
+            setName("labelWordTask");
             setPreferredSize(new Dimension(350, 15));
             setFont(new Font("Segoe Print", Font.BOLD, 14));
         }};
@@ -62,6 +64,7 @@ public class WinExerciseWithOpenAswer extends JFrame {
             }
         });
         txtFldUsAnswer = new JTextField("", 20);
+        txtFldUsAnswer.setName("txtFldUsAnswer");
         txtFldUsAnswer.setFont(new Font("TimesRoman", Font.BOLD, 13));
         panelAnsw.add(txtFldUsAnswer);
         panelAnsw.setBackground(new Color(237, 246, 229));
@@ -74,6 +77,7 @@ public class WinExerciseWithOpenAswer extends JFrame {
 
         buttonOk = new JButton("Далее") {
             {
+                setName("next");
                 setSize(new Dimension(120, 25));
                 setMaximumSize(getSize());
                 setBackground(new Color(237, 246, 229));

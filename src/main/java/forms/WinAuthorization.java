@@ -24,24 +24,28 @@ public class WinAuthorization extends JFrame {
         JPanel panelLog = new JPanel();
         panelLog.add(new JLabel("Логин:") {
             {
+                setName("labelUsername");
                 setPreferredSize(new Dimension(60, 15));
                 setFont(new Font("Segoe Print", Font.BOLD, 14));
             }
         });
         panelLog.setBackground(new Color(181, 234, 234));
         username = new JTextField("", 20);
+        username.setName("username");
         username.setFont(new Font("TimesRoman", Font.BOLD, 13));
         panelLog.add(username);
 
         JPanel panelPass = new JPanel();
         panelPass.add(new JLabel("Пароль:") {
             {
+                setName("labelPass");
                 setPreferredSize(new Dimension(60, 15));
                 setFont(new Font("Segoe Print", Font.BOLD, 14));
             }
         });
         panelPass.setBackground(new Color(181, 234, 234));
         password = new JPasswordField("", 20);
+        password.setName("password");
         password.setFont(new Font("TimesRoman", Font.BOLD, 13));
         panelPass.add(password);
 
@@ -49,6 +53,7 @@ public class WinAuthorization extends JFrame {
 
         //создать кнопки ОК и Отмена для закрытия диалогового окна
         JButton okButton = new JButton("ОК");
+        okButton.setName("ok");
         okButton.setBackground(new Color(237, 246, 229));
         okButton.setFont(new Font("Segoe Print", Font.BOLD, 12));
         okButton.addActionListener(event -> {
@@ -59,6 +64,7 @@ public class WinAuthorization extends JFrame {
             }
         });
         JButton cancelButton = new JButton("Отмена");
+        cancelButton.setName("cancel");
         cancelButton.setBackground(new Color(237, 246, 229));
         cancelButton.setFont(new Font("Segoe Print", Font.BOLD, 12));
         cancelButton.addActionListener(event -> {
@@ -66,6 +72,7 @@ public class WinAuthorization extends JFrame {
             WinMainMenu.setFrame(new WinMainMenu());
         });
         JButton regButton = new JButton("Зарегистрироваться");
+        regButton.setName("reg");
         regButton.setBackground(new Color(237, 246, 229));
         regButton.setFont(new Font("Segoe Print", Font.BOLD, 12));
         regButton.addActionListener(event -> {

@@ -32,6 +32,7 @@ public class WinResultsUserTrain extends JFrame {
             model.addElement("отсутствуют");
         }
         learnedList = new JList(model);
+        learnedList.setName("learnedList");
         //создаем панель и прокрутку для списка выученных слов
         JPanel listPanelLearned = new JPanel();
         listPanelLearned.setLayout(new BoxLayout(listPanelLearned, BoxLayout.Y_AXIS));
@@ -55,6 +56,7 @@ public class WinResultsUserTrain extends JFrame {
             modelNew.addElement("отсутствуют");
         }
         newList = new JList(modelNew);
+        newList.setName("newList");
 
         //создаем панель и прокрутку для списка добавленных слов
         JPanel listPanelNew = new JPanel();
@@ -87,6 +89,7 @@ public class WinResultsUserTrain extends JFrame {
 
         JButton buttonMenu = new JButton("Меню") {
             {
+                setName("menu");
                 setSize(new Dimension(120, 20));
                 setMaximumSize(getSize());
                 setBackground(new Color(237, 246, 229));
@@ -100,6 +103,7 @@ public class WinResultsUserTrain extends JFrame {
 
         JButton buttonCateg = new JButton("Новый опрос") {
             {
+                setName("newCheck");
                 setSize(new Dimension(120, 20));
                 setMaximumSize(getSize());
                 setBackground(new Color(237, 246, 229));

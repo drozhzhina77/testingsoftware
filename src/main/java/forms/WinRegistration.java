@@ -33,10 +33,12 @@ public class WinRegistration extends JFrame {
         JPanel panelLog = new JPanel();
         panelLog.setBackground(new Color(181, 234, 234));
         panelLog.add(new JLabel("Логин:") {{
+            setName("labelUsername");
             setPreferredSize(new Dimension(60, 15));
             setFont(new Font("Segoe Print", Font.BOLD, 13));
         }});
         username = new JTextField("", 25);
+        username.setName("username");
         username.setFont(new Font("TimesRoman", Font.BOLD, 13));
         username.addMouseListener(new MouseAdapter() {
             @Override
@@ -61,10 +63,12 @@ public class WinRegistration extends JFrame {
         JPanel panelPass = new JPanel();
         panelPass.setBackground(new Color(181, 234, 234));
         panelPass.add(new JLabel("Пароль:") {{
+            setName("labelPass");
             setPreferredSize(new Dimension(60, 15));
             setFont(new Font("Segoe Print", Font.BOLD, 13));
         }});
         password = new JPasswordField("", 25);
+        password.setName("password");
         password.setFont(new Font("TimesRoman", Font.BOLD, 13));
         password.addMouseListener(new MouseAdapter() {
             @Override
@@ -87,10 +91,12 @@ public class WinRegistration extends JFrame {
         JPanel panelFio = new JPanel();
         panelFio.setBackground(new Color(181, 234, 234));
         panelFio.add(new JLabel("ФИО:") {{
+            setName("labelFIO");
             setPreferredSize(new Dimension(60, 15));
             setFont(new Font("Segoe Print", Font.BOLD, 13));
         }});
         name = new JTextField("", 25);
+        name.setName("name");
         name.setFont(new Font("TimesRoman", Font.BOLD, 13));
         name.addMouseListener(new MouseAdapter() {
             @Override
@@ -112,20 +118,24 @@ public class WinRegistration extends JFrame {
         JPanel panelGroup = new JPanel();
         panelGroup.setBackground(new Color(181, 234, 234));
         panelGroup.add(new JLabel("Группа:") {{
+            setName("labelGroup");
             setPreferredSize(new Dimension(60, 15));
             setFont(new Font("Segoe Print", Font.BOLD, 13));
         }});
         group = new JTextField("", 25);
+        group.setName("group");
         group.setFont(new Font("TimesRoman", Font.BOLD, 13));
         panelGroup.add(group);
 
         JPanel panelCourse = new JPanel();
         panelCourse.setBackground(new Color(181, 234, 234));
         panelCourse.add(new JLabel("Курс:") {{
+            setName("labelCourse");
             setPreferredSize(new Dimension(60, 15));
             setFont(new Font("Segoe Print", Font.BOLD, 13));
         }});
         course = new JTextField("", 25);
+        course.setName("course");
         course.setFont(new Font("TimesRoman", Font.BOLD, 13));
         panelCourse.add(course);
 
@@ -133,6 +143,7 @@ public class WinRegistration extends JFrame {
 
         //создать кнопки ОК и Отмена для закрытия окна
         JButton okButton = new JButton("ОК");
+        okButton.setName("ok");
         okButton.setBackground(new Color(237, 246, 229));
         okButton.setFont(new Font("Segoe Print", Font.BOLD, 12));
         okButton.addActionListener(event -> {
@@ -143,6 +154,7 @@ public class WinRegistration extends JFrame {
             }
         });
         JButton cancelButton = new JButton("Отмена");
+        cancelButton.setName("cancel");
         cancelButton.setBackground(new Color(237, 246, 229));
         cancelButton.setFont(new Font("Segoe Print", Font.BOLD, 12));
         cancelButton.addActionListener(event -> {
@@ -151,6 +163,7 @@ public class WinRegistration extends JFrame {
         });
 
         JButton menuButton = new JButton("Меню");
+        menuButton.setName("menu");
         menuButton.setBackground(new Color(237, 246, 229));
         menuButton.setFont(new Font("Segoe Print", Font.BOLD, 12));
         menuButton.addActionListener(event -> {

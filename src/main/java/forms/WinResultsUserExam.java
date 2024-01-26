@@ -31,6 +31,7 @@ public class WinResultsUserExam extends JFrame {
         getCells(cells);
         TableModel model = new DefaultTableModel(cells, columnNames);
         table = new JTable(model);
+        table.setName("tableResults");
         table.setDefaultRenderer(Object.class, new TableRenderer());
 
         table.setRowHeight(85);
@@ -101,6 +102,7 @@ public class WinResultsUserExam extends JFrame {
         }});
         panelMark.setBackground(new Color(181, 234, 234));
         JButton menuButton = new JButton("Меню");
+        menuButton.setName("menu");
         menuButton.setBackground(new Color(237, 246, 229));
         menuButton.setFont(new Font("Segoe Print", Font.BOLD, 12));
         menuButton.addActionListener(event -> {

@@ -42,6 +42,7 @@ public class WinMainMenu extends JFrame {
         Font font = new Font("Segoe Print", Font.BOLD, 16);
         JButton btnStart = new JButton("Начать") {
             {
+                setName("start");
                 setSize(new Dimension(150, 30));
                 setMaximumSize(getSize());
                 setPreferredSize(new Dimension(150, 30));
@@ -51,6 +52,7 @@ public class WinMainMenu extends JFrame {
         };
         JButton btnDictionary = new JButton("Словарь") {
             {
+                setName("dictionary");
                 setSize(new Dimension(150, 30));
                 setMaximumSize(getSize());
                 setPreferredSize(new Dimension(150, 30));
@@ -60,6 +62,7 @@ public class WinMainMenu extends JFrame {
         };
         JButton btnResults = new JButton("Результаты") {
             {
+                setName("results");
                 setSize(new Dimension(150, 30));
                 setMaximumSize(getSize());
                 setPreferredSize(new Dimension(150, 30));
@@ -69,6 +72,7 @@ public class WinMainMenu extends JFrame {
         };
         JButton btnExit = new JButton("Выйти") {
             {
+                setName("exit");
                 setSize(new Dimension(150, 30));
                 setMaximumSize(getSize());
                 setPreferredSize(new Dimension(150, 30));
@@ -165,31 +169,39 @@ public class WinMainMenu extends JFrame {
         public void actionPerformed(ActionEvent ae) {
             if (ae.getActionCommand().equals("Начать") && User.getCurUser() == null) {
                 WinAuthorization.setFrame(new WinAuthorization());
-                WinMainMenu.getFrame().dispose();
-                WinMainMenu.setFrame(null);
-            } else if (ae.getActionCommand().equals("Начать") && User.getCurUser() != null) {
                 try {
-                    WinChooseCategory.setFrame(new WinChooseCategory());
                     WinMainMenu.getFrame().dispose();
                     WinMainMenu.setFrame(null);
+                } catch (NullPointerException npe) {}
+            } else if (ae.getActionCommand().equals("Начать") && User.getCurUser() != null) {
+                try {
+                    try {
+                        WinChooseCategory.setFrame(new WinChooseCategory());
+                        WinMainMenu.getFrame().dispose();
+                        WinMainMenu.setFrame(null);
+                    } catch (NullPointerException npe) {}
                 } catch (MyFileException e) {
                     e.printStackTrace();
                 }
             } else if (ae.getActionCommand().equals("Словарь")) {
                 try {
-                    WinChooseCategory.setCallFromCateg(false);
-                    WinDictionaryGeneral.setCallFromGenDict(false);
-                    WinMainMenu.getFrame().dispose();
-                    WinMainMenu.setFrame(null);
-                    WinDictionaryUser.setFrame(new WinDictionaryUser());
+                    try {
+                        WinChooseCategory.setCallFromCateg(false);
+                        WinDictionaryGeneral.setCallFromGenDict(false);
+                        WinMainMenu.getFrame().dispose();
+                        WinMainMenu.setFrame(null);
+                        WinDictionaryUser.setFrame(new WinDictionaryUser());
+                    } catch (NullPointerException npe) {}
                 } catch (MyFileException | IOException e) {
                     e.printStackTrace();
                 }
             } else if (ae.getActionCommand().equals("Результаты")) {
                 try {
-                    WinMainMenu.getFrame().dispose();
-                    WinMainMenu.setFrame(null);
-                    WinResultsGeneral.setFrame(new WinResultsGeneral());
+                    try {
+                        WinMainMenu.getFrame().dispose();
+                        WinMainMenu.setFrame(null);
+                        WinResultsGeneral.setFrame(new WinResultsGeneral());
+                    } catch (NullPointerException npe) {}
                 } catch (MyFileException e) {
                     e.printStackTrace();
                 }

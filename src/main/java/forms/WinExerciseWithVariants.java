@@ -32,6 +32,7 @@ public class WinExerciseWithVariants extends JFrame {
         }};
         JPanel panelTask = new JPanel();
         labelTask = new JLabel(exercWithVar.getTask()) {{
+            setName("labelTask");
             if (exercWithVar.getType() == 3 || exercWithVar.getType() == 4) {
                 setPreferredSize(new Dimension(280, 40));
                 setFont(new Font("Segoe Print", Font.BOLD, 13));
@@ -43,6 +44,7 @@ public class WinExerciseWithVariants extends JFrame {
         panelTask.add(labelTask);
         panelTask.setBackground(new Color(237, 246, 229));
         labelWordTask = new JLabel(exercWithVar.getWordTask()) {{
+            setName("labelWordTask");
             setPreferredSize(new Dimension(350, 15));
             setFont(new Font("Segoe Print", Font.BOLD, 14));
         }};
@@ -79,6 +81,7 @@ public class WinExerciseWithVariants extends JFrame {
 
         buttonOk = new JButton("Далее") {
             {
+                setName("next");
                 setSize(new Dimension(120, 25));
                 setMaximumSize(getSize());
                 setBackground(new Color(237, 246, 229));
@@ -155,6 +158,7 @@ public class WinExerciseWithVariants extends JFrame {
 
     public JRadioButton addRadioButton(String name, boolean isSelected, ExerciseWithVariants exercWithVar) {
         JRadioButton button = new JRadioButton(name, isSelected);
+        button.setName(name);
         button.setBackground(new Color(237, 246, 229));
         if (exercWithVar.getType() == 3) {
             button.setFont(new Font("TimesRoman", Font.BOLD, 13));
